@@ -10,7 +10,7 @@ const HeroSection2 = () => {
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
         bonjour,
           <br className="hidden lg:inline-block" />
-          JE M'APELLE FRAN!
+          JE MAPELLE FRAN!
         </h1>
         <p className="mb-8 leading-relaxed">
         I started the Paris Photographer in 2013. It wasn’t long before my passion for divine Parisian photography and desire to show Paris in a unique way, led me to become one of the most wanted artists in town. And luckily, I was blessed to also to work with some amazing clients.

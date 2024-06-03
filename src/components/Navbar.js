@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <div 
-      style={{ backgroundImage: "url('/herosec.png')" }} 
+      style={{ backgroundImage: "url('/herosec.jpg')" }} 
       className="bg-cover bg-center h-screen flex flex-col justify-between"
     >
       <nav className={`fixed w-full z-10 transition-colors duration-300 ${isScrolled ? 'bg-white text-black shadow-md' :  'bg-transparent text-white'}`}>

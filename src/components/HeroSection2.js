@@ -24,7 +24,7 @@ This success, for which I am deeply grateful, has also attracted talented artist
         <Image
           className="object-cover object-center rounded"
           alt="hero"
-          src="/owner.png"
+          src="/owner.jpg"
           width={400}
           height={350}
         />
@@ -37,7 +37,7 @@ This success, for which I am deeply grateful, has also attracted talented artist
       <Image
        className="object-cover object-center rounded"
        alt="hero"
-       src="/couple2.png"
+       src="/couple2.jpg"
        width={400}
        height={350}
       />

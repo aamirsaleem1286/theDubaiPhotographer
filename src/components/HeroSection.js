@@ -17,7 +17,7 @@ const HeroSection = () => {
       </div>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <Image alt="images" src="/couple.png"width={400}height={50}/>
+        <Image alt="images" src="/couple.jpg"width={400}height={50}/>
           <div className="flex-grow">     
             <p className="leading-relaxed text-base">
             First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
@@ -28,7 +28,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <Image alt="images" src="/proposal.png"width={400}height={50}/>
+            <Image alt="images" src="/proposal.jpg"width={400}height={50}/>
           {/* <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0"> */}
             {/* <svg
               fill="none"
@@ -58,7 +58,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <Image alt='images' src="/wedding.png"width={400}height={50}/>
+        <Image alt='images' src="/wedding.jpg"width={400}height={50}/>
 
           {/* <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg

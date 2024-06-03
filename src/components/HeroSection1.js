@@ -48,7 +48,7 @@ const HeroSection1 = () => {
               The Catalyzer
             </h2> */}
             <p className="leading-relaxed text-base">
-            If you're proposing in Paris, get a photographer to guide you and capture the big moment.
+            If you are proposing in Paris, get a photographer to guide you and capture the big moment.
             </p>
             <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
           Learn More

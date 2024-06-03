@@ -50,12 +50,12 @@ export default function Home() {
           <ClientPage/>
           <Pricing/>
           <Testimonials /> */}
-          <a href="https://wa.me/+923242846072" target="_blank" rel="noopener noreferrer" className="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-lg flex items-center">
+          <a href="https://wa.me/+971569667552" target="_blank" rel="noopener noreferrer" className="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-lg flex items-center">
             <FaWhatsapp className="h-6 w-6 mr-2" />
             WhatsApp
           </a>
 
-          <a href="tel:+923242846072" className="fixed bottom-4 left-4 bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full shadow-lg flex items-center">
+          <a href="tel:+971569667552" className="fixed bottom-4 left-4 bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full shadow-lg flex items-center">
             <IoCall className="h-6 w-6 mr-2" />
             Call Us Now
           </a>

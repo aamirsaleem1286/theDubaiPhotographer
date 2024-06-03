@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <div 
-      style={{ backgroundImage: "url('/herosec.jpg')" }} 
+      style={{ backgroundImage: "url('/bg.jpg')" }} 
       className="bg-cover bg-center h-screen flex flex-col justify-between"
     >
       <nav className={`fixed w-full z-10 transition-colors duration-300 ${isScrolled ? 'bg-white text-black shadow-md' :  'bg-transparent text-white'}`}>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
           <div className="flex justify-center">
             <Link href="/" className=" text-xl font-bold">
-              <h1 className='text-bold text-4xl '>The Dubai Photographer</h1>
+              <h1 className='text-bold text-xl '><i>The Dubai Photographer</i></h1>
               {/* <img src="/logo.png" width={92} height={45} alt="Logo"/> */}
             </Link>
           </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
           </ul>
 
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-[#fc9003] focus:outline-none">
+            <button onClick={toggleMenu} className="text-white focus:outline-none">
               <svg className={`${isOpen ? 'hidden' : 'block'} w-6 h-6`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
               </svg>
@@ -62,24 +62,25 @@ const Navbar = () => {
 
         <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-black`}>
           <ul className="flex flex-col items-center">
-            <li><Link href="/" className="text-[#f2d5a0] hover:text-[#fc9003] block py-2">Home</Link></li>
-            <li><Link href="/about" className="text-[#f2d5a0] hover:text-[#fc9003] block py-2">About</Link></li>
-            <li><Link href="/services" className="text-[#f2d5a0] hover:text-[#fc9003] block py-2">Services</Link></li>
-            <li><Link href="/booknow" className="text-[#f2d5a0] hover:text-[#fc9003] block py-2">Book Now</Link></li>
+            <li><Link href="/" className="text-white hover:text-[#fc9003] block py-2">Home</Link></li>
+            <li><Link href="/about" className="text-white hover:text-[#fc9003] block py-2">About</Link></li>
+            <li><Link href="/services" className="text-white hover:text-[#fc9003] block py-2">Services</Link></li>
+            <li><Link href="/booknow" className="text-white hover:text-[#fc9003] block py-2">Book Now</Link></li>
           </ul>
         </div>
       </nav>
 
-      <div className="flex-grow flex items-center justify-center" style={{ marginTop: "300px" }}>
-        <div>
-          <button className="text-black hover:text-white hover:bg-black bg-white w-32 h-12 focus:outline-none rounded-lg">
-            Start Here
-          </button>
-          <button className="text-white hover:text-black hover:bg-white ml-4 bg-black w-32 h-12 focus:outline-none rounded-lg">
-            How It Works
-          </button>
-        </div>
-      </div>
+      <div className="flex flex-col text-white sm:flex-row items-center justify-center" style={{ marginTop: "200px" }}>
+    <h1 className='text-bold text-3xl'>UNFORGETTABLE PHOTOS IN PARIS</h1><br/>
+  <p className='text-xl text-bold'>Photos Of Your Paris Experience You Will Treasure Forever…
+be warned your friends might become a bit jealous.</p><br/>
+  <button className="text-black hover:text-white hover:bg-black bg-white w-full sm:w-32 mb-4 sm:mb-0 sm:mr-4 h-12 focus:outline-none rounded-lg">
+    Start Here
+  </button>
+  <button className="text-white hover:text-black hover:bg-white bg-black w-full sm:w-32 h-12 focus:outline-none rounded-lg">
+    How It Works
+  </button>
+</div>
     </div>
   )
 }

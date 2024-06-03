@@ -22,7 +22,8 @@ const HeroSection1 = () => {
             <p className="leading-relaxed text-base">
             First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
             <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
-          Learn More
+            <a href="tel:+971569667552" >
+          Book now</a>
           </button>
           </div>
         </div>
@@ -51,7 +52,8 @@ const HeroSection1 = () => {
             If you are proposing in Paris, get a photographer to guide you and capture the big moment.
             </p>
             <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
-          Learn More
+            <a href="tel:+971569667552" >
+          Book now</a>
           </button>
           </div>
         </div>
@@ -80,7 +82,8 @@ const HeroSection1 = () => {
             Eloping or getting married in Paris ? Your wedding photos will be memorable.
             </p>
             <button  className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
-          Learn More
+            <a href="tel:+971569667552" >
+          Book now</a>
           </button>
           </div>
         </div>

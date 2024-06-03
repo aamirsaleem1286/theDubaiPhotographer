@@ -22,7 +22,7 @@ const HeroSection = () => {
             <p className="leading-relaxed text-base">
             First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
             <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
-            <a href="tel:+923242846072" >
+            <a href="tel:+971569667552" >
           Book now</a>
           </button>
           </div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
             If you are proposing in Paris, get a photographer to guide you and capture the big moment.
             </p>
             <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
-            <a href="https://wa.me/+923242846072" target="_blank" rel="noopener noreferrer" >
+            <a href="https://wa.me/+971569667552" target="_blank" rel="noopener noreferrer" >
           Book now</a>
           </button>
           </div>
@@ -82,7 +82,7 @@ const HeroSection = () => {
             Eloping or getting married in Paris ? Your wedding photos will be memorable.
             </p>
             <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
-            <a href="https://wa.me/+923242846072" target="_blank" rel="noopener noreferrer" >
+            <a href="https://wa.me/+971569667552" target="_blank" rel="noopener noreferrer" >
           Book now</a>
           </button>
           </div>

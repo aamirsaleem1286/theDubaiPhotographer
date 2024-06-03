@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Information */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Company</h4>
+            <h4 className="font-bold text-lg mb-4">The Dubai Photographer</h4>
             <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
           </div>
 
@@ -61,9 +61,9 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Contact Us</h4>
             <ul>
-              <li className="mb-2"><span>Phone: (123) 456-7890</span></li>
+              <li className="mb-2"><span>Phone: (971) 56-966-7552</span></li>
               <li className="mb-2"><span>Email: info@example.com</span></li>
-              <li className="mb-2"><span>Address: 123 Main St, City, Country</span></li>
+              {/* <li className="mb-2"><span>Address: 123 Main St, City, Country</span></li> */}
             </ul>
           </div>
         </div>

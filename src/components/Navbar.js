@@ -39,9 +39,9 @@ const Navbar = () => {
           <div className="flex justify-center">
             <Link href="/" className="text-xl font-bold">
               <h1 className="text-center text-sm" style={{ marginLeft: "110px", marginTop: "-10px" }}>
-                <span className={`text-xl ${isScrolled ? 'text-black' : 'text-gray-100'}`}>The</span> <br />
+                <span className={`text-xl ${isScrolled ? 'text-black' : 'text-gray-400'}`}>The</span> <br />
                 <span className={`font-bold text-xl ${isScrolled ? 'text-black' : 'text-white'}`}>Dubai</span> <br />
-                <span className={` text-xl${isScrolled ? 'text-black' : 'text-gray-200'}`}>Photographer</span>
+                <span className={` text-xl ${isScrolled ? 'text-black' : 'text-gray-300'}`}>Photographer</span>
               </h1>
             </Link>
           </div>

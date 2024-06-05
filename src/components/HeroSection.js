@@ -6,13 +6,14 @@ const HeroSection = () => {
     <section className="text-gray-600  bg-custom-gray  body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="text-center mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
-        PHOTOGRAPHY SERVICES        </h1>
-        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
+      <p className=" text-sm text-gray-500 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
         PARIS PHOTO SHOOTS AND WEDDINGS
         </p>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+        PHOTOGRAPHY SERVICES        </h1>
+        
         <div className="flex mt-6 justify-center">
-          <div className="w-16 h-1 rounded-full bg-black inline-flex" />
+          <div className="w-[150px] h-[3px] rounded-full bg-black inline-flex" />
         </div>
       </div>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -21,7 +22,7 @@ const HeroSection = () => {
           <div className="flex-grow">     
             <p className="leading-relaxed text-base">
             First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
-            <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
+            <button className=" mt-2 text-white ml-4 bg-[black] rounded-lg w-[200px] h-12 focus:outline-none ">
             <a href="tel:+971569667552" >
           Book now</a>
           </button>
@@ -51,7 +52,7 @@ const HeroSection = () => {
             <p className="leading-relaxed text-base">
             If you are proposing in Paris, get a photographer to guide you and capture the big moment.
             </p>
-            <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
+            <button className=" mt-2 text-white ml-4 bg-[black] rounded-lg w-[200px] h-12 focus:outline-none ">
             <a href="https://wa.me/+971569667552" target="_blank" rel="noopener noreferrer" >
           Book now</a>
           </button>
@@ -81,7 +82,7 @@ const HeroSection = () => {
             <p className="leading-relaxed text-base">
             Eloping or getting married in Paris ? Your wedding photos will be memorable.
             </p>
-            <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
+            <button className=" mt-2 text-white ml-4 bg-[black] rounded-lg w-[200px] h-12 focus:outline-none ">
             <a href="https://wa.me/+971569667552" target="_blank" rel="noopener noreferrer" >
           Book now</a>
           </button>

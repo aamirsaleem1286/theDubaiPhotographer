@@ -12,7 +12,7 @@ const HeroSection1 = () => {
         PARIS PHOTO SHOOTS AND WEDDINGS
         </p>
         <div className="flex mt-6 justify-center">
-          <div className="w-16 h-1 rounded-full bg-black inline-flex" />
+        <div className="w-[150px] h-[3px] rounded-full bg-black inline-flex" />
         </div>
       </div>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -21,7 +21,7 @@ const HeroSection1 = () => {
           <div className="flex-grow">     
             <p className="leading-relaxed text-base">
             First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
-            <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
+            <button className=" mt-2 text-white ml-4 bg-[black] w-[200px]  h-12 focus:outline-none rounded-lg">
             <a href="tel:+971569667552" >
           Book now</a>
           </button>
@@ -51,7 +51,7 @@ const HeroSection1 = () => {
             <p className="leading-relaxed text-base">
             If you are proposing in Paris, get a photographer to guide you and capture the big moment.
             </p>
-            <button className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
+            <button className=" mt-2 text-white ml-4 bg-[black] w-[200px]  h-12 focus:outline-none rounded-lg">
             <a href="tel:+971569667552" >
           Book now</a>
           </button>
@@ -81,7 +81,7 @@ const HeroSection1 = () => {
             <p className="leading-relaxed text-base">
             Eloping or getting married in Paris ? Your wedding photos will be memorable.
             </p>
-            <button  className=" mt-2 text-white ml-4 bg-[black] w-32 h-12 focus:outline-none rounded-lg">
+            <button className=" mt-2 text-white ml-4 bg-[black] w-[200px]  h-12 focus:outline-none rounded-lg">
             <a href="tel:+971569667552" >
           Book now</a>
           </button>

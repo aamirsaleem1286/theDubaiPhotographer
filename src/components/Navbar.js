@@ -1,3 +1,4 @@
+
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 
@@ -39,9 +40,9 @@ const Navbar = () => {
           <div className="flex justify-center">
             <Link href="/" className="text-xl font-bold">
               <h1 className="text-center text-sm" style={{ marginLeft: "110px", marginTop: "-10px" }}>
-                <span className={`text-xl ${isScrolled ? 'text-black' : 'text-gray-400'}`}>The</span> <br />
+                <span className={`text-xl ${isScrolled ? 'text-black' : 'text-gray-200'}`}>The</span> <br />
                 <span className={`font-bold text-xl ${isScrolled ? 'text-black' : 'text-white'}`}>Dubai</span> <br />
-                <span className={` text-xl ${isScrolled ? 'text-black' : 'text-gray-300'}`}>Photographer</span>
+                <span className={` text-xl ${isScrolled ? 'text-black' : 'text-gray-200'}`}>Photographer</span>
               </h1>
             </Link>
           </div>
@@ -73,19 +74,22 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <div className="flex flex-col text-white sm:flex-row items-center justify-center mt-48 sm:mt-32 space-y-4 sm:space-y-0 sm:space-x-4">
+      <div className="flex flex-col text-white sm:flex-row items-center justify-center mt-48 sm:mt-32 space-y-4 sm:space-y-0 sm:space-x-4 px-4">
         <div className="text-center sm:text-left">
-          <h1 className="font-bold text-3xl mb-2">UNFORGETTABLE PHOTOS IN PARIS</h1>
-          <p className="text-xl font-bold">
+          <p className="text-sm text-gray-200 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            THE FRIENDLIEST PARIS PHOTOGRAPHERS’
+          </p>
+          <h1 className="font-bold text-xl mb-2">UNFORGETTABLE PHOTOS IN PARIS</h1>
+          <p className="text-sm text-gray-200 font-bold">
             Photos Of Your Paris Experience You Will Treasure Forever…<br />
             Be warned, your friends might become a bit jealous.
           </p>
         </div>
         <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
-          <button style={{ width: "150px" }} className="text-black hover:text-white hover:bg-black bg-white w-full sm:w-48 h-12 focus:outline-none rounded-lg">
+          <button style={{ width: "200px" }} className="text-white  hover:text-black hover:bg-white bg-black w-full sm:w-48 h-12 focus:outline-none rounded-lg">
             Start Here
           </button>
-          <button className="text-white hover:text-black hover:bg-white bg-black w-full sm:w-48 h-12 focus:outline-none rounded-lg">
+          <button className="text-black hover:text-white hover:bg-black bg-white   w-full sm:w-48 h-12 focus:outline-none rounded-lg">
             How It Works
           </button>
         </div>

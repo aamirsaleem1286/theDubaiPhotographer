@@ -23,9 +23,9 @@ const HeroSection = () => {
               <p className="leading-relaxed text-base">
                 First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.
               </p>
-              <button className="mt-4 text-white bg-black rounded-lg w-full h-12 focus:outline-none">
-                <a href="tel:+971569667552">Book now</a>
-              </button>
+              <button className="mt-4 text-white bg-black rounded-lg w-full h-12 focus:outline-none"> 
+               <a href="tel:+971569667552">Book now</a> 
+             </button> 
             </div>
           </div>
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">

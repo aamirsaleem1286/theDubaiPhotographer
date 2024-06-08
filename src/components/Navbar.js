@@ -88,12 +88,12 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
         <button 
-  style={{ width: "200px" }} 
+  style={{ width: "200px",fontFamily: "fantasy",fontSize: "18px"  }} 
   className="mt-12 text-white hover:text-black hover:bg-white bg-black border border-black w-full sm:w-48 h-12 focus:outline-none rounded-full">
   Start Here
 </button>
 
-          <button className="mt-6 text-black hover:text-white hover:bg-black bg-white   w-full sm:w-48 h-12 focus:outline-none rounded-full border-white">
+          <button className="mt-6 text-black hover:text-white hover:bg-black bg-white   w-full sm:w-48 h-12 focus:outline-none rounded-full border-white" style={{fontFamily: "fantasy",fontSize: "18px" }}>
             How It Works
           </button>
         </div>

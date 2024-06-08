@@ -6,9 +6,9 @@ const HeroSection1 = () => {
     <section className="text-gray-600   body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="text-center mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
-        PHOTOGRAPHY SERVICES        </h1>
-        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4" style={{fontFamily:"cursive"}}>
+      PHOTOGRAPHY SERVICES        </h1>
+        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s" style={{ fontFamily: "ui-monospace"}}>
         PARIS PHOTO SHOOTS AND WEDDINGS
         </p>
         <div className="flex mt-6 justify-center">
@@ -19,10 +19,11 @@ const HeroSection1 = () => {
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <Image src="/lifestyle.jpg"width={400}height={50}/>
           <div className="flex-grow">     
-            <p className="leading-relaxed text-base">
-            First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
-            <button className="mt-4 text-white bg-black rounded-lg w-full h-12 focus:outline-none"> 
-            <a href="tel:+971569667552" >
+          <p className="leading-relaxed text-base"style={{maxWidth: "94%" ,fontFamily: "cursive"}}>
+          First trip to Paris, engagement, honeymoon and anniversary. Get incredible couples photos in Paris.</p>
+            <button 
+  style={{ width: "200px",fontFamily: "fantasy",fontSize: "20px" }} 
+  className="mt-4 text-white hover:text-black hover:bg-white bg-black border border-black w-full sm:w-48 h-12 focus:outline-none rounded-full">            <a href="tel:+971569667552" >
           Book now</a>
           </button>
           </div>
@@ -48,11 +49,12 @@ const HeroSection1 = () => {
             {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
               The Catalyzer
             </h2> */}
-            <p className="leading-relaxed text-base">
-            If you are proposing in Paris, get a photographer to guide you and capture the big moment.
+              <p className="leading-relaxed text-base"style={{maxWidth: "94%" ,fontFamily: "cursive"}}>
+              If you are proposing in Paris, get a photographer to guide you and capture the big moment.
             </p>
-            <button className="mt-4 text-white bg-black rounded-lg w-full h-12 focus:outline-none"> 
-            <a href="tel:+971569667552" >
+            <button 
+  style={{ width: "200px",fontFamily: "fantasy",fontSize: "20px" }} 
+  className="mt-4 text-white hover:text-black hover:bg-white bg-black border border-black w-full sm:w-48 h-12 focus:outline-none rounded-full">            <a href="tel:+971569667552" >
           Book now</a>
           </button>
           </div>
@@ -78,11 +80,12 @@ const HeroSection1 = () => {
             {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
               Neptune
             </h2> */}
-            <p className="leading-relaxed text-base">
-            Eloping or getting married in Paris ? Your wedding photos will be memorable.
+              <p className="leading-relaxed text-base"style={{maxWidth: "92%" ,fontFamily: "cursive"}}>
+              Eloping or getting married in Paris ? Your wedding photos will be memorable.
             </p>
-            <button className="mt-4 text-white bg-black rounded-lg w-full h-12 focus:outline-none"> 
-            <a href="tel:+971569667552" >
+            <button 
+  style={{ width: "200px",fontFamily: "fantasy",fontSize: "20px" }} 
+  className="mt-4 text-white hover:text-black hover:bg-white bg-black border border-black w-full sm:w-48 h-12 focus:outline-none rounded-full">            <a href="tel:+971569667552" >
           Book now</a>
           </button>
           </div>

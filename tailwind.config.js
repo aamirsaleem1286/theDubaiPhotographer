@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '14px': '14px',
+      },
+      letterSpacing: {
+        '5px': '5px',
+      },
+
       colors: {
         'custom-gray': 'rgba(247, 247, 247, 1)'},
 
